@@ -77,15 +77,22 @@ void sumofK(vector<int> x, int y, ofstream& q)
 
     for(int i = 0 ; i < x.size()-2; i++)  //outer for loop starts at the first element in the vector
     {
-        for(int j = i; j < x.size()-1; j++) //inner for loop also starts at the first element in the vector to check if duplicate equal target
+        for(int j = i+1; j < x.size()-1; j++) //inner for loop also starts at the first element in the vector to check if duplicate equal target
         {
-            for(int k = j ; k < x.size(); k++)
+            for(int k = j+1 ; k < x.size(); k++)
             {
                 if(x[i] + x[j] + x[k] == y) //if two numbers euqal target then we return and print out the given text below
                 {
                     q << "\nExercise1 calculation complexity O(n^2)" << endl;
                     q << "Yes, there are three numbers that add up to target" << endl;
                     q << x[i] << " + " << x[j] << " + "<< x[k] << " = " << x[i]+x[j]+x[k] << endl;
+                    return;
+                }
+                else if(x[i]*3 == y)
+                {
+                    q << "\nExercise1 calculation complexity O(n^2)" << endl;
+                    q << "Yes, there are three numbers that add up to target" << endl;
+                    q << x[i] << " + " << x[i] << " + "<< x[i] << " = " << x[i]+x[i]+x[i] << endl;
                     return;
                 }
             }
