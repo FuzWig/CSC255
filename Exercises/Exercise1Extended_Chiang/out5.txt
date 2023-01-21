@@ -1,6 +1,0 @@
-24
-SumOfK
-5 12 8 10 7 4 3 5 5 12 3 22 2 1 
-Exercise1 calculation complexity O(n^2)
-Yes, there are three numbers that add up to target
-5 + 12 + 7 = 24
