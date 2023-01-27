@@ -4,7 +4,7 @@ Andrew Chiang
 This program will sorts words in O(n) complexity, where n is the number of words in the input file (not counting the first word that has special meaning described below)
 Input: txt file
 Output: txt file 
-Given: inX.txt in which X is 10 and 100
+Given: in_abcX.txt in which X is 10 and 100
 */
 
 #include <iostream>
@@ -22,7 +22,7 @@ void bubble(vector<int>, vector<string>, ofstream& );
 
 int main()
 {
-    for(int m = 10 ; m <=100 ; m+=90 )              //for loops that reads 5 input files and print the results to corresponding 5 output file
+    for(int m = 10 ; m <=100 ; m+=90 )              //for loops that reads 2 input files and print the results to corresponding 2 output file
     {
         string word;                        //stores the numbers read from input
         string maxer;
@@ -76,11 +76,11 @@ int main()
  
         q2.close();   //close the file
 
-        // q3.open("out_abc" + to_string(m) + "b.txt"); //open file based output
+        q3.open("out_abc" + to_string(m) + "b.txt"); //open file based output
         
-        // bubble(intArray, diction, q3);  //sorts vector in other sorting algo
+        bubble(intArray, diction, q3);  //sorts vector in other sorting algo
         
-        // q3.close();   //close the file
+        q3.close();   //close the file
     }
 
     return 0;
@@ -161,7 +161,6 @@ void bubble(vector<int> x, vector<string> dictions, ofstream& q)    //bubble sor
     {
         q << dictions[j] << " ";   //print the correctly ordered element by searching the dictionary for corresponding word
     }
-
 }
 
 
