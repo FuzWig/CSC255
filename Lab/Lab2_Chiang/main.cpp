@@ -87,7 +87,7 @@ int main()
 }
 
 
-int converter(string word)                       //takes string and converts to word
+int converter(string word)                       //takes string and converts to number
 {
     int result = 0;   
     int num;                                    //stores the ascii converter character
