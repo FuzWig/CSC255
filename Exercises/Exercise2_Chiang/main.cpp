@@ -67,11 +67,11 @@ int main()
 
 void algo(vector<int> x, int k, ofstream& q)
 {
-    vector<int> temparray(k);  //creates a temp array with k length
+    vector<int> temparray(k+1);  //creates a temp array with k length
 
     for(int i:x)         //runs through vector 
     {
-        temparray[i] =  temparray[i]+1; //add 1 to the array element at the appropriate index with O(n) complexity
+      temparray.at(i) =  temparray.at(i)+1; //add 1 to the array element at the appropriate index with O(n) complexity
     }
 
     for(int j = 0; j <= k; j++)         //looping the temp array giving O(K^2) where k is a constant
