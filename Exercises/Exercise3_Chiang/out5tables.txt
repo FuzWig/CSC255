@@ -1,0 +1,162 @@
+*** Linear Probing Random Order Start *** 
+
+print table.size()= 11
+
+index=1 key=111 value=222
+index=2 key=35 value=70
+index=3 key=25 value=50
+index=4 key=67 value=134
+index=5 key=5 value=10
+index=6 key=138 value=276
+index=7 key=414 value=828
+index=8 key=59 value=118
+index=9 key=37 value=74
+
+Linear Probing 24 collisions
+
+*** Linear Probing Random Order End *** 
+
+*** Quadratic Probing Random Order Start *** 
+
+print table.size()= 11
+
+index=1 key=111 value=222
+index=2 key=35 value=70
+index=3 key=25 value=50
+index=4 key=59 value=118
+index=5 key=5 value=10
+index=6 key=138 value=276
+index=7 key=414 value=828
+index=8 key=37 value=74
+index=10 key=67 value=134
+
+Quadratic Probing 10 collisions
+
+*** Quadratic Probing Random Order End *** 
+
+*** Double Probing Random Order Start *** 
+
+print table.size()= 11
+
+index=1 key=111 value=222
+index=2 key=35 value=70
+index=3 key=25 value=50
+index=4 key=67 value=134
+index=5 key=5 value=10
+index=6 key=138 value=276
+index=7 key=414 value=828
+index=8 key=59 value=118
+index=9 key=37 value=74
+
+Double Probing 6 collisions
+
+*** Double Probing Random Order End *** 
+
+*** Linear Probing Ascending Order Start *** 
+
+print table.size()= 11
+
+index=1 key=67 value=134
+index=2 key=35 value=70
+index=3 key=25 value=50
+index=4 key=37 value=74
+index=5 key=5 value=10
+index=6 key=59 value=118
+index=7 key=111 value=222
+index=8 key=138 value=276
+index=9 key=414 value=828
+
+Linear Probing 24 collisions
+
+*** Linear Probing Ascending Order End *** 
+
+*** Quadratic Probing Ascending Order Start *** 
+
+print table.size()= 11
+
+index=1 key=67 value=134
+index=2 key=35 value=70
+index=3 key=25 value=50
+index=4 key=37 value=74
+index=5 key=5 value=10
+index=6 key=138 value=276
+index=7 key=414 value=828
+index=8 key=59 value=118
+index=10 key=111 value=222
+
+Quadratic Probing 10 collisions
+
+*** Quadratic Probing Ascending Order End *** 
+
+*** Double Probing Ascending Order Start *** 
+
+print table.size()= 11
+
+index=1 key=67 value=134
+index=2 key=35 value=70
+index=3 key=25 value=50
+index=4 key=37 value=74
+index=5 key=5 value=10
+index=6 key=111 value=222
+index=7 key=414 value=828
+index=8 key=59 value=118
+index=10 key=138 value=276
+
+Double Probing 16 collisions
+
+*** Double Probing Ascending Order End *** 
+
+*** Linear Probing Descending Order Start *** 
+
+print table.size()= 11
+
+index=1 key=111 value=222
+index=2 key=67 value=134
+index=3 key=35 value=70
+index=4 key=59 value=118
+index=5 key=37 value=74
+index=6 key=138 value=276
+index=7 key=414 value=828
+index=8 key=25 value=50
+index=9 key=5 value=10
+
+Linear Probing 24 collisions
+
+*** Linear Probing Descending Order End *** 
+
+*** Quadratic Probing Descending Order Start *** 
+
+print table.size()= 11
+
+index=1 key=111 value=222
+index=2 key=67 value=134
+index=3 key=35 value=70
+index=4 key=59 value=118
+index=5 key=37 value=74
+index=6 key=138 value=276
+index=7 key=414 value=828
+index=8 key=25 value=50
+index=9 key=5 value=10
+
+Quadratic Probing 18 collisions
+
+*** Quadratic Probing Descending Order End *** 
+
+*** Double Probing Descending Order Start *** 
+
+print table.size()= 11
+
+index=1 key=111 value=222
+index=2 key=35 value=70
+index=3 key=25 value=50
+index=4 key=67 value=134
+index=5 key=5 value=10
+index=6 key=138 value=276
+index=7 key=414 value=828
+index=8 key=59 value=118
+index=9 key=37 value=74
+
+Double Probing 6 collisions
+
+*** Double Probing Descending Order End *** 
+
