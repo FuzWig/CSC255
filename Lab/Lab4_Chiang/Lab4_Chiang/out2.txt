@@ -1,0 +1,52 @@
+Heap
+13 19 14 21 26 32 16 24 68 65 31 33 
+
+Delete Min
+Heap After Delete Min
+14 19 16 21 26 32 33 24 68 65 31 
+
+Delete Min
+Heap After Delete Min
+16 19 31 21 26 32 33 24 68 65 
+
+Delete Min
+Heap After Delete Min
+19 21 31 24 26 32 33 65 68 
+
+Delete Min
+Heap After Delete Min
+21 24 31 65 26 32 33 68 
+
+Delete Min
+Heap After Delete Min
+24 26 31 65 68 32 33 
+
+Delete Min
+Heap After Delete Min
+26 33 31 65 68 32 
+
+Delete Min
+Heap After Delete Min
+31 33 32 65 68 
+
+Delete Min
+Heap After Delete Min
+32 33 68 65 
+
+Delete Min
+Heap After Delete Min
+33 65 68 
+
+Delete Min
+Heap After Delete Min
+65 68 
+
+Delete Min
+Heap After Delete Min
+68 
+
+Delete Min
+Heap After Delete Min
+
+
+Deleted All
